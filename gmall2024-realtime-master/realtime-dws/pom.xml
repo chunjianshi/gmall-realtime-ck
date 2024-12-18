@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.atguigu</groupId>
+        <artifactId>gmall2024-realtime</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>realtime-dws</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>realtime-dws-traffic-source-keyword-page-view-window</module>
+        <module>realtime-dws-traffic-vc-ch-ar-is_new-page-view-window</module>
+        <module>realtime-dws-traffic-home-detail-page-view-window</module>
+        <module>realtime-dws-user-user-login-window</module>
+        <module>realtime-dws-user-user-register-window</module>
+        <module>realtime-dws-trade-cart-add-uu-window</module>
+        <module>realtime-dws-trade-sku-order-window</module>
+        <module>realtime-dws-trade-province-order-window</module>
+    </modules>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.atguigu</groupId>
+            <artifactId>realtime-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>ru.yandex.clickhouse</groupId>
+            <artifactId>clickhouse-jdbc</artifactId>
+            <version>0.3.2</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>com.fasterxml.jackson.core</groupId>
+                    <artifactId>jackson-databind</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>com.fasterxml.jackson.core</groupId>
+                    <artifactId>jackson-core</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.flink</groupId>
+            <artifactId>flink-connector-jdbc</artifactId>
+            <version>3.1.1-1.17</version>
+        </dependency>
+
+    </dependencies>
+
+
+
+</project>

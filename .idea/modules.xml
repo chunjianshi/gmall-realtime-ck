@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/gmall2024-realtime-master.iml" filepath="$PROJECT_DIR$/.idea/gmall2024-realtime-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gmall2024-realtime-master/gmall2024-publisher/src/main/main.iml" filepath="$PROJECT_DIR$/gmall2024-realtime-master/gmall2024-publisher/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gmall2024-realtime-master/gmall2024-publisher/src/test/test.iml" filepath="$PROJECT_DIR$/gmall2024-realtime-master/gmall2024-publisher/src/test/test.iml" />
+    </modules>
+  </component>
+</project>
