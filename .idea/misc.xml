@@ -6,6 +6,7 @@
       <list>
         <option value="$PROJECT_DIR$/gmall2024-realtime-master/pom.xml" />
         <option value="$PROJECT_DIR$/gmall2024-realtime-master/gmall2024-publisher/pom.xml" />
+        <option value="$PROJECT_DIR$/gmall2024-realtime-master/gmall2024-publisher-ck/pom.xml" />
       </list>
     </option>
   </component>
